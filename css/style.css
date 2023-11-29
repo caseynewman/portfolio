@@ -18,3 +18,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: -1px;
 }
+
+h2 {
+    font-size: 1.7em;
+}
