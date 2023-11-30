@@ -50,15 +50,12 @@ nav ul {
     letter-spacing: 1px;
 }
 
-.work ul {
+.work img {
     display: flex;
-
+    flex
 }
 
 .contact ul {
     display: flex;
     justify-content: space-evenly;
 }
-
-/* Photo by <a href="https://unsplash.com/@spacejoy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Spacejoy</a> on <a href="https://unsplash.com/photos/brown-woven-basket-on-brown-wooden-table-MjvGoa_oRts?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-   */
