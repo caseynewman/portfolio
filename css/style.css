@@ -17,9 +17,12 @@ body {
     padding: 5px 10px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 section {
     margin-bottom: 20px;
-    scroll-behavior: smooth;
 }
 
 h2, h3, h4, h5, h6 {
@@ -55,6 +58,7 @@ nav ul {
     font-size: .8em;
 }
 
+
 .hero {
     display: flex;
     flex-direction: row;
@@ -66,6 +70,10 @@ nav ul {
     height: 40%;
     border-radius: 50%;
     margin: 10px;
+}
+
+#about, #work, #contact {
+    overflow-y: scroll;
 }
 
 .work img {
