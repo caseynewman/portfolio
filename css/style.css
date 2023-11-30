@@ -71,6 +71,7 @@ nav ul {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .hero img {
@@ -103,4 +104,40 @@ nav ul {
 
 footer {
     text-align: center;
+}
+
+
+@media screen and (min-width:480px) {
+
+    body {
+        padding: 35px 50px;
+    }
+
+    header img {
+        width: 20%;
+        height: 20%;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        padding-left: 15px;
+    }
+
+    .hero img {
+        width: 20%;
+        height: 20%;
+        margin: 20px;
+    }
+
+    h1 {
+        line-height: 1;
+    }
+
+    .about {
+        display: flex;
+    }
+
 }
