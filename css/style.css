@@ -1,4 +1,7 @@
-/* light taupe: #f5ebe0 */
+/*
+light taupe: #f5ebe0
+deep green: #354f52
+*/
 
 * {
     box-sizing: border-box;
@@ -14,6 +17,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
     line-height: 1.5;
+    color: #354f52;
 }
 
 h1 {
