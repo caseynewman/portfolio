@@ -1,8 +1,8 @@
 /*
-light taupe: #f5ebe0
-deep green: #354f52
-logo/accent: #b7b7a4
-gold: #dda15e
+light tan bg: #f5ebe0
+light green logo: #b7b7a4
+gold accent: #dda15e
+dark gold h: #b4762f
 */
 
 * {
@@ -95,10 +95,13 @@ nav ul {
 .applications {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .applications img {
-    max-width: 300px;
+    width: 33%;
+    height: 33%;
 }
 
 .spotlight img {
@@ -166,13 +169,5 @@ footer {
         padding: 35px 50px;
     }
     
-    .applications {
-        flex-direction: row;
-        justify-content: space-between;
-        max-width: 100%;
-        flex-wrap: nowrap;
-    }
-
-
 
 }
