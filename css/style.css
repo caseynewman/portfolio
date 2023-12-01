@@ -120,7 +120,7 @@ footer {
 @media screen and (min-width:480px) {
 
     body {
-        padding: 35px 200px;
+        padding: 35px 15%;
     }
 
     header {
@@ -162,13 +162,3 @@ footer {
     }
 
 }
-
-
-
-
-/* @media screen and (max-width:1024px) {
-    body {
-        padding: 35px 50px;
-    }
-
-} */
