@@ -87,18 +87,34 @@ nav ul {
     padding: 30px;
 }
 
-/* #about, #work, #contact {
-    overflow-y: scroll;
-} */
+.spotlight img {
+    display: block;
+    max-width: 100%;
+    max-height: auto;
+}
 
-.work img {
+.applications {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: auto;
+    flex-wrap: wrap;
+}
+
+.applications img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+
+/* .work img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
     padding: 5px;
-}
+} */
 
 .italic {
     font-style: italic;
@@ -158,6 +174,17 @@ footer {
 
     .about {
         padding: 35px 50px;
+    }
+    
+    .applications {
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .applications img {
+
     }
 
 }
