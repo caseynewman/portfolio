@@ -92,18 +92,9 @@ nav ul {
     flex-direction: column;
 }
 
-.spotlight img {
-    display: block;
-    max-width: 100%;
-    max-height: auto;
-}
-
 .applications {
     display: flex;
     flex-direction: row;
-    max-width: 100%;
-    max-height: auto;
-    flex-wrap: wrap;
 }
 
 .applications img {
