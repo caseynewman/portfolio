@@ -42,10 +42,10 @@ h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3.3em;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    line-height: 1;
+    letter-spacing: 1.3px;
+    line-height: 1.2;
     font-family: "Italiana", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -58,7 +58,7 @@ h2 {
 header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 nav ul {
@@ -79,7 +79,7 @@ nav ul {
     width: 40%;
     height: 40%;
     border-radius: 50%;
-    margin: 10px;
+    margin: 15px;
 }
 
 .about {
