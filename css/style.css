@@ -87,9 +87,9 @@ nav ul {
     padding: 30px;
 }
 
-#about, #work, #contact {
+/* #about, #work, #contact {
     overflow-y: scroll;
-}
+} */
 
 .work img {
     display: flex;
