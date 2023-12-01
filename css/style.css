@@ -98,19 +98,13 @@ nav ul {
 }
 
 .applications img {
+    max-width: 300px;
+}
+
+.spotlight img {
     max-width: 100%;
     max-height: auto;
 }
-
-
-/* .work img {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 5px;
-} */
 
 .italic {
     font-style: italic;
