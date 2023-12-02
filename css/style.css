@@ -50,9 +50,17 @@ h1 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.3em;
     text-transform: lowercase;
     letter-spacing: -1px;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #222222;
+    background-color: #f5ebe0;
+    padding: 10px;
 }
 
 header {
@@ -102,6 +110,17 @@ nav ul {
 .applications img {
     width: 50%;
     height: 50%;
+}
+
+.spotlight {
+    position: relative;
+}
+
+
+.caption {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
 
 .spotlight img {
