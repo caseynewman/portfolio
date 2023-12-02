@@ -82,7 +82,7 @@ nav ul {
     margin: 15px;
 }
 
-.about {
+.about, .work {
     background-color: rgba(250, 250, 250, 0.51);
     padding: 30px;
 }
@@ -100,13 +100,15 @@ nav ul {
 }
 
 .applications img {
-    width: 33%;
-    height: 33%;
+    width: 50%;
+    height: 50%;
+    padding: 1px;
 }
 
 .spotlight img {
     max-width: 100%;
     max-height: auto;
+    padding: 1px;
 }
 
 .italic {
