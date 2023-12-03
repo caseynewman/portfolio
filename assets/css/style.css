@@ -31,7 +31,7 @@ html {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 h2, h3, h4, h5, h6 {
@@ -98,40 +98,77 @@ nav ul {
 .work-container {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
-.applications {
+.small-apps {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 10px;
 }
 
-.applications img {
+.horiseon {
+    background-image: url("../images/horiseon-application.png");
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    height: 100%;
-}
-
-.spotlight {
+    height: 300px;
     position: relative;
 }
 
-.caption {
+.interior {
+    background-image: url("../images/modern-interior.png");
+    /* Photo by <a href="https://unsplash.com/@spacejoy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Spacejoy</a> on <a href="https://unsplash.com/photos/brown-woven-basket-on-brown-wooden-table-MjvGoa_oRts?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>   */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.stargazing {
+    background-image: url("../images/stargazing.png");
+    /* Photo by <a href="https://unsplash.com/@neom?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">NEOM</a> on <a href="https://unsplash.com/photos/a-man-standing-in-the-middle-of-a-desert-at-night-SUIMrEKVOXc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>   */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+
+.recipes {
+    background-image: url("../images/rainbow-dish.png");
+    /* Photo by <a href="https://unsplash.com/@kimzy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kimzy Nanney</a> on <a href="https://unsplash.com/photos/mixed-fruits-on-bowl-with-blueberry-on-top-LNDgBERq8Q0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+
+.hiking {
+    background-image: url("../images/hiking.png");
+    /* Photo by <a href="https://unsplash.com/@theforestbirds?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joel & Jasmin Førestbird</a> on <a href="https://unsplash.com/photos/person-hiking-above-mountain-overlooking-river-znoL1m6MD_k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+}
+
+.label {
     position: absolute;
     bottom: 0px;
     left: 0px;
+    text-wrap: wrap;
 }
-
-.spotlight img {
+/* 
+.horiseon img {
     max-width: 100%;
     max-height: auto;
-}
+} */
 
-.work img {
-    padding: 2px;
-}
 
-.work img:hover {
+.work img:hover, .horiseon:hover {
     opacity: .75;
 }
 
@@ -195,13 +232,10 @@ footer {
         padding: 35px 50px;
     }
     
-    .applications {
+    .small-apps {
         flex-direction: row;
-    }
-
-    .applications img {
-        width: 50%;
-        height: 50%;
+        width: 45%;
+        height: 45%;
     }
 
 }
