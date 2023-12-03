@@ -2,7 +2,7 @@
 light tan bg: #f5ebe0
 light green logo: #b7b7a4
 gold accent: #dda15e
-dark gold h: #b4762f
+dark gold h2: #b4762f
 */
 
 * {
@@ -227,7 +227,6 @@ footer {
 
     .interior, .stargazing, .recipes, .hiking {
         width: 465px;
-        height: 400px;
     }
 
 }
