@@ -111,48 +111,35 @@ nav ul {
 
 .horiseon {
     background-image: url("../images/horiseon-application.png");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 300px;
-    position: relative;
 }
 
 .interior {
     background-image: url("../images/modern-interior.png");
     /* Photo by <a href="https://unsplash.com/@spacejoy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Spacejoy</a> on <a href="https://unsplash.com/photos/brown-woven-basket-on-brown-wooden-table-MjvGoa_oRts?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>   */
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 300px;
-    position: relative;
 }
 
 .stargazing {
     background-image: url("../images/stargazing.png");
     /* Photo by <a href="https://unsplash.com/@neom?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">NEOM</a> on <a href="https://unsplash.com/photos/a-man-standing-in-the-middle-of-a-desert-at-night-SUIMrEKVOXc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>   */
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 300px;
 }
 
 .recipes {
     background-image: url("../images/rainbow-dish.png");
     /* Photo by <a href="https://unsplash.com/@kimzy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kimzy Nanney</a> on <a href="https://unsplash.com/photos/mixed-fruits-on-bowl-with-blueberry-on-top-LNDgBERq8Q0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 300px;
 }
 
 .hiking {
     background-image: url("../images/hiking.png");
     /* Photo by <a href="https://unsplash.com/@theforestbirds?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joel & Jasmin Førestbird</a> on <a href="https://unsplash.com/photos/person-hiking-above-mountain-overlooking-river-znoL1m6MD_k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
+}
+
+.horiseon, .interior, .stargazing, .recipes, .hiking {
+    opacity: .5;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 300px;
+    position: relative;
 }
 
 .label {
@@ -160,10 +147,15 @@ nav ul {
     bottom: 0px;
     left: 0px;
     text-wrap: wrap;
+    text-transform: uppercase;
+    color: #222222;
+    background-color: #f5ebe0bd;
+    font-size: 1em;
+    letter-spacing: 1px;
 }
 
 .horiseon:hover, .interior:hover, .stargazing:hover, .recipes:hover, .hiking:hover {
-    opacity: .75;
+    opacity: 1;
 }
 
 .italic {
