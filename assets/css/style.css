@@ -103,7 +103,6 @@ nav ul {
 
 .small-apps {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 10px;
@@ -134,11 +133,11 @@ nav ul {
 }
 
 .horiseon, .interior, .stargazing, .recipes, .hiking {
-    opacity: .5;
+    opacity: .7;
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 300px;
+    height: 400px;
     position: relative;
 }
 
@@ -152,6 +151,9 @@ nav ul {
     background-color: #f5ebe0bd;
     font-size: 1em;
     letter-spacing: 1px;
+    padding: 3px;
+    text-align: center;
+    width: 100%;
 }
 
 .horiseon:hover, .interior:hover, .stargazing:hover, .recipes:hover, .hiking:hover {
@@ -220,8 +222,12 @@ footer {
     
     .small-apps {
         flex-direction: row;
-        width: 45%;
-        height: 45%;
+        flex-wrap: wrap;
+    }
+
+    .interior, .stargazing, .recipes, .hiking {
+        width: 465px;
+        height: 400px;
     }
 
 }
