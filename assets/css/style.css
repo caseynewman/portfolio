@@ -31,7 +31,7 @@ html {
 }
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 h2, h3, h4, h5, h6 {
@@ -161,14 +161,8 @@ nav ul {
     left: 0px;
     text-wrap: wrap;
 }
-/* 
-.horiseon img {
-    max-width: 100%;
-    max-height: auto;
-} */
 
-
-.work img:hover, .horiseon:hover {
+.horiseon:hover, .interior:hover, .stargazing:hover, .recipes:hover, .hiking:hover {
     opacity: .75;
 }
 
