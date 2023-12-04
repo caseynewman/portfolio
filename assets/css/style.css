@@ -34,18 +34,18 @@ section {
     margin-bottom: 25px;
 }
 
-h2, h3, h4, h5, h6 {
-    margin-bottom: 5px;
-    line-height: 1.5;
-    color: #b4762f;
-    font-family: "Italiana", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 h1 {
     font-size: 3.3em;
     text-transform: uppercase;
     letter-spacing: 1.3px;
     line-height: 1.2;
+    font-family: "Italiana", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2, h3, h4, h5, h6 {
+    margin-bottom: 5px;
+    line-height: 1.5;
+    color: #b4762f;
     font-family: "Italiana", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -55,14 +55,7 @@ h2 {
     letter-spacing: -1px;
 }
 
-h3 {
-    font-size: 1.5em;
-    text-transform: uppercase;
-    color: #222222;
-    background-color: #f5ebe0;
-    padding: 10px;
-}
-
+/* PAGE HEADER */
 header {
     display: flex;
     justify-content: space-between;
@@ -76,6 +69,7 @@ nav ul {
     font-size: .8em;
 }
 
+/* TITLE & PHOTO */
 .hero {
     display: flex;
     flex-direction: column;
@@ -95,6 +89,7 @@ nav ul {
     padding: 30px;
 }
 
+/* APPLICATIONS FLEXBOX */
 .work-container {
     display: flex;
     flex-direction: column;
@@ -108,6 +103,7 @@ nav ul {
     gap: 10px;
 }
 
+/* APPLICATION IMAGES */
 .horiseon {
     background-image: url("../images/horiseon-application.png");
 }
@@ -141,6 +137,7 @@ nav ul {
     position: relative;
 }
 
+/* TEXT OVER APPLICATIONS */
 .label {
     position: absolute;
     bottom: 0px;
@@ -172,7 +169,6 @@ nav ul {
 footer {
     text-align: center;
 }
-
 
 
 
@@ -226,7 +222,7 @@ footer {
     }
 
     .interior, .stargazing, .recipes, .hiking {
-        width: 465px;
+        width: 469px;
     }
 
 }
