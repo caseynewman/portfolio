@@ -94,15 +94,8 @@ nav ul {
 /* APPLICATIONS FLEXBOX */
 .work-container {
     display: flex;
-    flex-direction: column;
     gap: 10px;
-}
-
-.small-apps {
-    display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 10px;
 }
 
 /* APPLICATION IMAGES */
@@ -130,12 +123,21 @@ nav ul {
     /* Photo by <a href="https://unsplash.com/@theforestbirds?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Joel & Jasmin Førestbird</a> on <a href="https://unsplash.com/photos/person-hiking-above-mountain-overlooking-river-znoL1m6MD_k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
 }
 
-.horiseon, .interior, .stargazing, .recipes, .hiking {
+.work-container article {
+    flex: 1 1 225px;
+    height: 400px;
+}
+
+.work-container article:first-child {
+    flex-basis: 100%;
+}
+
+.work-container a {
     opacity: .7;
     background-size: cover;
     background-position: center;
-    width: 100%;
-    height: 400px;
+    height: 100%;
+    display: block;
     position: relative;
 }
 
@@ -155,7 +157,7 @@ nav ul {
     width: 100%;
 }
 
-.horiseon:hover, .interior:hover, .stargazing:hover, .recipes:hover, .hiking:hover {
+.work-container a:hover {
     opacity: 1;
 }
 
@@ -215,15 +217,6 @@ footer {
 
     .about {
         padding: 35px 50px;
-    }
-    
-    .small-apps {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .interior, .stargazing, .recipes, .hiking {
-        width: 469px;
     }
 
 }
